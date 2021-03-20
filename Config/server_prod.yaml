@@ -1,0 +1,20 @@
+LogLevel: info
+BaseUrl: http://127.0.0.1
+Port: '9501'
+LogFile: ./Storage/logs/
+AllowCredentials: true
+MaxAge: 600
+AllowedOrigins:
+  http://localhost*
+  https://localhost*
+  https://127.0.0.1*
+  http://127.0.0.1*
+  chrome-extension://*
+AllowedHeaders:
+  Authorization
+  Token
+  Sec-Fetch-Dest
+  Sec-Fetch-Mode
+  Sec-Fetch-Site
+  cross-request-unsafe-headers-list
+  cross-request-open-sign

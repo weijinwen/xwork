@@ -1,0 +1,6 @@
+cache:
+  default:
+    server: redis
+    host: 127.0.0.1:6379
+    timeout: 3
+    initConns: 4

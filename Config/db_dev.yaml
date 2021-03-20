@@ -1,0 +1,8 @@
+db:
+  default:
+    dialect: mysql
+    url: root:123456@tcp(127.0.0.1:3306)/xwork?charset=utf8&parseTime=True&loc=Local
+    maxIdle: 4
+    maxActive: 6
+    maxLife: 0
+    showSql: false

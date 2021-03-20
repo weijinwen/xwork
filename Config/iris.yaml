@@ -1,0 +1,9 @@
+DisableStartupLog: true
+DisableInterruptHandler: false
+DisablePathCorrection: false
+EnablePathEscape: false
+FireMethodNotAllowed: false
+DisableBodyConsumptionOnUnmarshal: false
+DisableAutoFireStatusCode: false
+TimeFormat: "2016-02-12 15:04:05"
+Charset: "UTF-8"
